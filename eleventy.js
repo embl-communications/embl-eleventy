@@ -94,7 +94,7 @@ module.exports = function(config) {
     htmlTemplateEngine : ["njk", "md"],
     markdownTemplateEngine : "njk",
     passthroughFileCopy: true,
-    pathPrefix: "/subdirectory-name/" // if your site is deployed to a sub-url, otherwise comment out
+    pathPrefix: "/embl-eleventy/" // if your site is deployed to a sub-url, otherwise comment out
   };
 
 };
