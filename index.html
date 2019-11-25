@@ -1,0 +1,113 @@
+<!doctype html>
+<html lang="en" class="vf-no-js">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" media="all" href="/subdirectory-name/css/styles.css" />
+    <title>EMBL Eleventy boilerplate</title>
+    <script>
+// Detect if JS is on and swap vf-no-js for vf-js on the html element
+(function(H){H.className=H.className.replace(/\bvf-no-js\b/,'vf-js')})(document.documentElement);
+</script>
+
+  </head>
+  <body class="">
+    <!-- embl global header -->
+    <link rel="import" href="https://dev.beta.embl.org/api/v1/pattern.html?filter-content-type=article&filter-id=574&pattern=node-body&source=contenthub" data-target="self" data-embl-js-content-hub-loader>
+
+    <div class="vf-body">
+
+      <div class="vf-grid vf-u-margin__top--md">
+        <!-- embl global banner -->
+        <link rel="import" href="https://dev.beta.embl.org/api/v1/pattern.html?filter-content-type=article&filter-id=580&pattern=node-body&source=contenthub" data-target="self" data-embl-js-content-hub-loader>
+      </div>
+
+      <div class="vf-grid">
+        <div>
+          <section class="vf-intro | embl-grid embl-grid--has-centered-content">
+  <div><!-- empty --></div>
+  <div>
+    <h1 class="vf-intro__heading vf-intro__heading--has-tag">EMBL Eleventy boilerplate <a href="" class="vf-badge vf-badge--primary vf-badge--phases">alpha</a></h1>
+<p class="vf-lede">This allows using the <a class="vf-link" href="https://www.11ty.io">11ty</a> static site generator with direct access to <a class="vf-link" href="https://github.com/visual-framework/vf-core">Visual Framework 2.0</a> components.</p>
+<p class="vf-intro__text">☝️ that also means dynamic building of just the CSS and JS you need.</p>
+  </div>
+</section>
+<section class="embl-grid embl-grid--has-centered-content">
+  <div>
+    <!-- empty -->
+  </div>
+  <div class="vf-content">
+  <h2>Quickstart</h2>
+<pre><code>
+  yarn create @visual-framework/vf-eleventy your-new-site-name vf-eleventy   
+<p></code></pre></p>
+<p>This will install a new <a href="https://github.com/visual-framework/vf-eleventy/"><code>vf-eleventy</code></a> to a folder named <code>your-new-site-name</code>.</p>
+<p>Then follow the onscreen prompts and links below to develop and configure.</p>
+<h2>Longer install?</h2>
+<p>The above too easy or have questions? <a href="https://github.com/visual-framework/vf-eleventy#1-creating-a-new-project-powered-by-vf-eleventy">Read this guide</a>.</p>
+  </div>
+</section>
+<section class="vf-intro | embl-grid embl-grid--has-centered-content">
+<div>
+  <!-- empty -->
+</div>
+<div class="vf-content">
+<h2>What you get</h2>
+<ul>
+<li>the Eleventy static site generator</li>
+<li>access to the Visual Framework component system</li>
+</ul>
+<h3>Component installation</h3>
+<p>To add a component you can use npm/Yarn or install it manually.</p>
+<p>In either case you'll need to re-run <code>gulp dev</code> to ensure the component is fully loaded.</p>
+<ul>
+<li>installation: <code>yarn add @visual-framework/vf-logo</code></li>
+<li>updating: <code>yarn upgrade-interactive --latest</code></li>
+</ul>
+<h3>Manual installation for customisation</h3>
+<ol>
+<li>Download a pattern</li>
+<li>Copy it to <code>./src/components/vf-component-name</code></li>
+</ol>
+<h3>Add your own local component</h3>
+<p>You can add a custom VF-compatible component to <code>./src/components</code> and use it in
+your site.</p>
+<ul>
+<li><code>gulp vf-component</code></li>
+</ul>
+<p>You'll find a <code>vf-sample</code> component there, we've used it below:</p>
+<div class="vf-box">
+<p>Code: {% render &quot;@vf-sample&quot;, {text: &quot;with some text&quot;} %}</p>
+<p>Returns: <div class="vf-sample">
+I'm a sample with some text</p>
+</div>
+</div>
+</div>
+</section>
+
+        </div>
+      </div>
+    </div>
+
+    <div class="vf-body">
+  <div class="vf-grid">
+    <div class="vf-body--text">
+      
+
+    </div>
+  </div>
+</div>
+
+<!-- embl global footer -->
+<link rel="import" href="https://dev.beta.embl.org/api/v1/pattern.html?filter-content-type=article&filter-id=569&pattern=node-body&source=contenthub" data-target="self" data-embl-js-content-hub-loader>
+
+<!-- embl data protection banner -->
+<link rel="import" href="https://dev.beta.embl.org/api/v1/pattern.html?filter-content-type=article&filter-id=581&pattern=node-body&source=contenthub" data-target="self" data-embl-js-content-hub-loader>
+
+
+<!-- This page was generated on Invalid DateTime -->
+<script src="/subdirectory-name/scripts/scripts.js"></script>
+
+
+  </body>
+</html>
