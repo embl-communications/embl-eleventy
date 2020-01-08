@@ -30,7 +30,7 @@ output += "\" alt=\"";
 output += runtime.suppressValue(runtime.contextOrFrameLookup(context, frame, "logo_text"), env.opts.autoescape);
 output += "\">\n  <span class=\"vf-logo__text";
 if(runtime.contextOrFrameLookup(context, frame, "hidden_text")) {
-output += " vf-sr-only";
+output += " vf-u-sr-only";
 ;
 }
 output += "\">";
