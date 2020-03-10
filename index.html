@@ -10,7 +10,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" media="all" href="/embl-eleventy/css/styles.css" />
     <title>EMBL Eleventy boilerplate</title>
-
+    <link href="https://embl-communications.github.io/embl-eleventy/feed.xml" type="application/rss+xml" rel="alternate" title="EMBL Eleventy boilerplate RSS Feed">
     <link rel="apple-touch-icon" sizes="180x180" href="https://dev.beta.embl.org/guidelines/design/assets/embl-favicon/assets/apple-touch-icon.png">
 <link rel="icon" type="image/png" sizes="32x32" href="https://dev.beta.embl.org/guidelines/design/assets/embl-favicon/assets//favicon-32x32.png">
 <link rel="icon" type="image/png" sizes="16x16" href="https://dev.beta.embl.org/guidelines/design/assets/embl-favicon/assets/favicon-16x16.png">
@@ -20,21 +20,45 @@
 <meta name="theme-color" content="#ffffff">
 
 
+    <!-- Descriptive meta -->
+    <meta name="title" content="EMBL Eleventy boilerplate">
+    <meta name="author" content="Page Author">
+    <meta name="robots" content="index, follow">
+    <meta name="keywords" content="Tags">
+    <meta name="description" content="Page description">
+
+    <!-- Open Graph / Facebook -->
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://embl-communications.github.io/embl-eleventy/">
+    <meta property="og:title" content="EMBL Eleventy boilerplate">
+    <meta property="og:description" content="Page description">
+    <meta property="og:image" content="your-image-here.png">
+
+    <!-- Twitter -->
+    <meta property="twitter:card" content="summary_large_image">
+    <meta property="og:url" content="https://embl-communications.github.io/embl-eleventy/">
+    <meta property="twitter:title" content="EMBL Eleventy boilerplate">
+    <meta property="twitter:description" content="Page description">
+    <meta property="twitter:image" content="your-image-here.png">
+
     <!-- Content descriptors -->
-    <meta name="embl:who" content="Head of EMBL Comms"> <!-- the people, groups and teams involved -->
-    <meta name="embl:where" content="EMBL"> <!-- at which EMBL sites the content applies -->
-    <meta name="embl:what" content="EMBL Design System"> <!-- the activities covered -->
-    <meta name="embl:active" content="what"> <!-- which of the who/what/where is active -->
+    <meta name="embl:who" content="none"> 
+    <meta name="embl:where" content="EMBL"> 
+    <meta name="embl:what" content="EMBL"> 
+    <meta name="embl:active" content="what"> 
 
     <!-- Content role -->
-    <meta name="embl:utility" content="-8"> <!-- if content is task and work based or if is meant to inspire -->
-    <meta name="embl:reach" content="-5"> <!-- if content is externally (public) or internally focused (those that work at EMBL) -->
+    <meta name="embl:utility" content="0"> 
+    <meta name="embl:reach" content="10"> 
 
     <!-- Page infromation -->
-    <meta name="embl:maintainer" content="Communications Digital Team"> <!-- the contact person or group responsible for the page -->
-    <meta name="embl:last-review" content="2019-08-08"> <!-- the last time the page was reviewed or updated -->
-    <meta name="embl:review-cycle" content="90"> <!-- how long in days before the page should be checked -->
-    <meta name="embl:expiry" content="null"> <!-- if there is a fixed point in time when the page is no longer relevant -->
+    <meta name="embl:maintainer" content="EMBL Communications"> 
+    <meta name="embl:last-review" content="2020.01.16"> 
+    <meta name="embl:review-cycle" content="365"> 
+    <meta name="embl:expiry" content="never"> 
+
+    <!-- analytics -->
+    <meta name="vf:page-type" content=""> 
   </head>
   <body class="">
     <!-- embl global header -->
@@ -52,7 +76,7 @@
           <section class="vf-intro | embl-grid embl-grid--has-centered-content">
   <div><!-- empty --></div>
   <div>
-    <h1 class="vf-intro__heading vf-intro__heading--has-tag">EMBL Eleventy boilerplate <a href="" class="vf-badge vf-badge--primary vf-badge--phases">alpha</a></h1>
+    <h1 class="vf-intro__heading vf-intro__heading--has-tag">EMBL Eleventy boilerplate <a href="JavaScript:Void(0);" class="vf-badge vf-badge--primary vf-badge--phases">alpha</a></h1>
 <p class="vf-lede">This allows using the <a class="vf-link" href="https://www.11ty.io">11ty</a> static site generator with direct access to <a class="vf-link" href="https://github.com/visual-framework/vf-core">Visual Framework 2.0</a> components.</p>
 <p class="vf-intro__text">☝️ that also means dynamic building of just the CSS and JS you need.</p>
   </div>
@@ -80,7 +104,8 @@
 <h2>What you get</h2>
 <ul>
 <li>the Eleventy static site generator</li>
-<li>access to the Visual Framework component system</li>
+<li><a href="posts">initial templating setup</a></li>
+<li><a href="https://www.embl.org/guidelines/design/">access to the EMBL Design Language pattern and component system</a></li>
 </ul>
 <h3>Component installation</h3>
 <p>To add a component you can use npm/Yarn or install it manually.</p>

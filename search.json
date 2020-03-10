@@ -2,10 +2,15 @@
   {
     "url": "/",
     "title": "",
-    "index": " EMBL Eleventy boilerplate alphaThis allows using 11ty static site generator with direct access Visual Framework 20 components☝️ that also means dynamic building just CSS JS need Quickstart yarn create @visualframework/vfeleventy yournewsitename embleleventy This will install new folder named yournewsitenameThen follow onscreen prompts links below develop configureLonger install above too easy have questions Read this guide What get generatoraccess component systemComponent installation add can use npm/Yarn manually either case &#39;ll need rerun gulp dev ensure fully loadedinstallation: @visualframework/embllogoupdating: upgradeinteractive latestManual installation customisationDownload patternCopy /src/components/vfcomponentnameAdd your own local component custom VFcompatible /src/components your sitegulp vfcomponent&#39;ll find vfsample there &#39;ve used below:Code: {% render @vfsample {text: some text} %}Returns: &#39;m sample text"
+    "index": " EMBL Eleventy boilerplate alphaThis allows using 11ty static site generator with direct access Visual Framework 20 components☝️ that also means dynamic building just CSS JS need Quickstart yarn create @visualframework/vfeleventy yournewsitename embleleventy This will install new folder named yournewsitenameThen follow onscreen prompts links below develop configureLonger install above too easy have questions Read this guide What get generatorinitial templating setupaccess Design Language pattern component systemComponent installation add can use npm/Yarn manually either case &#39;ll need rerun gulp dev ensure fully loadedinstallation: @visualframework/embllogoupdating: upgradeinteractive latestManual installation customisationDownload patternCopy /src/components/vfcomponentnameAdd your own local component custom VFcompatible /src/components your sitegulp vfcomponent&#39;ll find vfsample there &#39;ve used below:Code: {% render @vfsample {text: some text} %}Returns: &#39;m sample text"
+  },
+  {
+    "url": "/posts/",
+    "title": "I&#39;m a blog-like index",
+    "index": " &#39;m bloglike index This aggregates your posts shows them here 22 June 2018 Im update subtitle summary Need more text"
   },
   {
     "url": "/posts/sample-post/",
     "title": "I&#39;m an update",
-    "index": " set"
+    "index": "&#39;m some content"
   },]
