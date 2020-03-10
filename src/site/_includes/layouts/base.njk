@@ -6,24 +6,52 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" media="all" href="{{ '/css/styles.css' | url }}" />
     <title>{{ title or (renderData and renderData.title) or siteConfig.siteInformation.title}}</title>
-
+    <link href="{{ siteConfig.siteInformation.url }}feed.xml" type="application/rss+xml" rel="alternate" title="{{ siteConfig.siteInformation.title }} RSS Feed">
     {% render '@embl-favicon' %}
 
+    <!-- Descriptive meta -->
+    <meta name="title" content="{{ title or (renderData and renderData.title) or siteConfig.siteInformation.title}}">
+    <meta name="author" content="{{ meta.author }}">
+    <meta name="robots" content="index, follow">
+    <meta name="keywords" content="{{ meta.keywords }}">
+    <meta name="description" content="{{ meta.description }}">
+
+    <!-- Open Graph / Facebook -->
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="{{ siteConfig.siteInformation.url }}{{ page.url.slice(1) }}">
+    <meta property="og:title" content="{{ title or (renderData and renderData.title) or siteConfig.siteInformation.title}}">
+    <meta property="og:description" content="{{ meta.description }}">
+    {% if meta.image -%}
+    <meta property="og:image" content="{{ meta.image | url }}">
+    {%- endif %}
+
+    <!-- Twitter -->
+    <meta property="twitter:card" content="summary_large_image">
+    <meta property="og:url" content="{{ siteConfig.siteInformation.url }}{{ page.url.slice(1) }}">
+    <meta property="twitter:title" content="{{ title or (renderData and renderData.title) or siteConfig.siteInformation.title}}">
+    <meta property="twitter:description" content="{{ meta.description }}">
+    {% if meta.image -%}
+    <meta property="twitter:image" content="{{ meta.image | url }}">
+    {%- endif %}
+
     <!-- Content descriptors -->
-    <meta name="embl:who" content="Head of EMBL Comms"> <!-- the people, groups and teams involved -->
-    <meta name="embl:where" content="EMBL"> <!-- at which EMBL sites the content applies -->
-    <meta name="embl:what" content="EMBL Design System"> <!-- the activities covered -->
-    <meta name="embl:active" content="what"> <!-- which of the who/what/where is active -->
+    <meta name="embl:who" content="{{ embl_content_meta_properties.who }}"> {# the people, groups and teams involved #}
+    <meta name="embl:where" content="{{ embl_content_meta_properties.where }}"> {# at which EMBL sites the content applies #}
+    <meta name="embl:what" content="{{ embl_content_meta_properties.what }}"> {# the activities covered #}
+    <meta name="embl:active" content="{{ embl_content_meta_properties.active }}"> {# which of the who/what/where is active #}
 
     <!-- Content role -->
-    <meta name="embl:utility" content="-8"> <!-- if content is task and work based or if is meant to inspire -->
-    <meta name="embl:reach" content="-5"> <!-- if content is externally (public) or internally focused (those that work at EMBL) -->
+    <meta name="embl:utility" content="{{ embl_content_meta_properties.utility }}"> {# if content is task and work based or if is meant to inspire #}
+    <meta name="embl:reach" content="{{ embl_content_meta_properties.reach }}"> {# if content is externally (public) or internally focused (those that work at EMBL) #}
 
     <!-- Page infromation -->
-    <meta name="embl:maintainer" content="Communications Digital Team"> <!-- the contact person or group responsible for the page -->
-    <meta name="embl:last-review" content="2019-08-08"> <!-- the last time the page was reviewed or updated -->
-    <meta name="embl:review-cycle" content="90"> <!-- how long in days before the page should be checked -->
-    <meta name="embl:expiry" content="null"> <!-- if there is a fixed point in time when the page is no longer relevant -->
+    <meta name="embl:maintainer" content="{{ embl_content_meta_properties.maintainer }}"> {# the contact person or group responsible for the page #}
+    <meta name="embl:last-review" content="{{ embl_content_meta_properties.lastreview }}"> {# the last time the page was reviewed or updated #}
+    <meta name="embl:review-cycle" content="{{ embl_content_meta_properties.reviewcycle }}"> {# how long in days before the page should be checked #}
+    <meta name="embl:expiry" content="{{ embl_content_meta_properties.expiry }}"> {# if there is a fixed point in time when the page is no longer relevant #}
+
+    <!-- analytics -->
+    <meta name="vf:page-type" content="{{ meta.pagetype }}"> {# for analytics tracking #}
   </head>
   <body class="{{ bodyClass }}">
     <!-- embl global header -->
