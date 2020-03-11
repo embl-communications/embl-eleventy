@@ -33,7 +33,7 @@
     "@visual-framework/embl-favicon": "^1.0.0",
     "@visual-framework/embl-grid": "^1.0.2",
     "@visual-framework/embl-logo": "^1.0.2",
-    "@visual-framework/vf-banner": "1.0.2",
+    "@visual-framework/vf-banner": "1.0.3",
     "@visual-framework/vf-breadcrumbs": "^1.0.0",
     "@visual-framework/vf-card": "^1.0.4",
     "@visual-framework/vf-card-container": "^1.0.0-alpha.3",
