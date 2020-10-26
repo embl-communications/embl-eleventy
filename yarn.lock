@@ -1435,10 +1435,10 @@
   resolved "https://registry.yarnpkg.com/@visual-framework/embl-favicon/-/embl-favicon-1.0.2.tgz#6ceae28147541bca6447ecdfe1c1cbc6b4521def"
   integrity sha512-Db8v1B9LdcaejnqD0Z5Vj63luHHBoNS5fQfG54KAkUT1wP5HJob96NugiEoBqfq9JAdT4lBf2rVc/NHBNNhSfg==
 
-"@visual-framework/embl-grid@^1.0.4":
-  version "1.0.4"
-  resolved "https://registry.yarnpkg.com/@visual-framework/embl-grid/-/embl-grid-1.0.4.tgz#2119b37799cb45d3c11367adf449389c571ca305"
-  integrity sha512-th3E06nvP72xXZ0fAbss7Ys2nciJ6TO+RVgZmfPOtp+aXej7FQp2pdWOniXdtVvPC4GE/pnmAzpAiYsROywqvw==
+"@visual-framework/embl-grid@^2.0.0":
+  version "2.1.0"
+  resolved "https://registry.yarnpkg.com/@visual-framework/embl-grid/-/embl-grid-2.1.0.tgz#0011291f66c59b837a2ed7d0fcb5ef1eefd5a56b"
+  integrity sha512-6dav9B7ots+Ty7sY9pCGuXqYDn054DBhhokgVsPOt5wF+c8kyUiqxP5em6ttJco7EFQZN+j6BmMLfzb/X40lAw==
 
 "@visual-framework/embl-logo@^1.0.3":
   version "1.0.3"
