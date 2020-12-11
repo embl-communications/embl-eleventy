@@ -1415,10 +1415,10 @@
     "@types/events" "*"
     "@types/node" "*"
 
-"@visual-framework/embl-breadcrumbs-lookup@^1.0.0-rc.0":
-  version "1.0.0-rc.0"
-  resolved "https://registry.yarnpkg.com/@visual-framework/embl-breadcrumbs-lookup/-/embl-breadcrumbs-lookup-1.0.0-rc.0.tgz#51b73ebd0c86b159152e236f6906a71dd0e6d72e"
-  integrity sha512-lFQw8iqsmJP+XXZB6JNkjcvamMxmx1M4kgFxuNeleLuIXtlDh13I6eYs/+stZzHUVtp9a8gzumkjqb7smPQ+NA==
+"@visual-framework/embl-breadcrumbs-lookup@^2.0.0":
+  version "2.0.1"
+  resolved "https://registry.yarnpkg.com/@visual-framework/embl-breadcrumbs-lookup/-/embl-breadcrumbs-lookup-2.0.1.tgz#80b3c6f75e7b967eeb9bc3762d4ddad23aefb5c7"
+  integrity sha512-M0q75lkFrIp0a4K4WgfldgWClddoDvRqNr8cnQsAg2CdC9z+Jssrx4Uy2z4+cmPwYSZ3zUqKqkSaw3zHIaO9FA==
 
 "@visual-framework/embl-conditional-edit@^1.0.2":
   version "1.0.2"
