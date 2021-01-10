@@ -1714,10 +1714,10 @@
   resolved "https://registry.yarnpkg.com/@visual-framework/vf-hero/-/vf-hero-1.2.0.tgz#367567b1455521238b1ed07899ed690d9fcbb363"
   integrity sha512-Cfuzo42OcckCRYjQHW5WMOd6ISaQwy9rRu41xN2O4mCHu0xcssX0DkQmL09VoAfSB7W8DxagqikWqjYE9LHpeQ==
 
-"@visual-framework/vf-inlay@^1.0.0-rc.3":
-  version "1.0.0-rc.3"
-  resolved "https://registry.yarnpkg.com/@visual-framework/vf-inlay/-/vf-inlay-1.0.0-rc.3.tgz#337784ef14fe9ec632ecc1a27960e9014d175dc7"
-  integrity sha512-2ejGubs3HDP6kRxdm38htAZZjU45Dv3OZwrblywXysliM6K5VanqOXmJQNW66zp6rtw0lqnJ62g7lUUfx4YOAw==
+"@visual-framework/vf-inlay@^2.0.0":
+  version "2.0.1"
+  resolved "https://registry.yarnpkg.com/@visual-framework/vf-inlay/-/vf-inlay-2.0.1.tgz#036ffdbe716c27b504daadf4f3a2d01b9be8ff33"
+  integrity sha512-dIxfgsgaHztanRmz46hKqEf5T0Ewja/IZsaZlPwIEKjJ35RKqVGJU0aWSWbkcrvF1u9N3eg5evNZ4jOWMGSxug==
 
 "@visual-framework/vf-intro@^1.0.2":
   version "1.0.2"
