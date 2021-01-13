@@ -15,6 +15,9 @@ module.exports = {
 
     /* Tell Fractal where the components will live */
     var vfComponentPath = global.vfComponentPath || __dirname + '/components';
+    // Possible needed fix to resolve path
+    // vfComponentPath = path.resolve('.',vfComponentPath);
+
     fractal.components.set('path', vfComponentPath);
 
     /* Tell Fractal where the documentation pages will live */
@@ -67,9 +70,9 @@ module.exports = {
       //   // global-name: global-val
       // },
       extensions: {
-        codeblock: require(__dirname + '/tools/vf-frctl-extensions/codeblock.js')(fractal),
-        spaceless: require(__dirname + '/tools/vf-frctl-extensions/spaceless.js')(fractal),
-        markdown:  require(__dirname + '/tools/vf-frctl-extensions/markdown.js')(fractal)
+        codeblock: require('@visual-framework/vf-frctl-extensions/codeblock.js')(fractal),
+        spaceless: require('@visual-framework/vf-frctl-extensions/spaceless.js')(fractal),
+        markdown:  require('@visual-framework/vf-frctl-extensions/markdown.js')(fractal)
       }
     });
 
@@ -85,6 +88,7 @@ module.exports = {
     /* build destination */
     var vfBuilderPath = global.vfBuilderPath || __dirname + '/build';
     fractal.web.set('builder.dest', vfBuilderPath);
+    fractal.set('components.resources.assets.match',  ['**/*.njk', '**/*.config.yml', '**/*.scss', '**/CHANGELOG.md', '**/*.js','**/*.css', '!**/*.precompiled.js', '!**/package.variables.scss', '!**/index.scss'])
 
     /* configure web */
     var vfStaticPath = global.vfStaticPath || __dirname + '/temp/build-files';
@@ -93,7 +97,8 @@ module.exports = {
     var vfOpenBrowser = typeof global.vfOpenBrowser === "undefined" ? true : global.vfOpenBrowser;
     fractal.web.set('server.syncOptions', {
       watchOptions: {
-        ignored: path.join(__dirname, './components/**/*.scss'),
+        // @todo: this should use vfComponentPath
+        ignored: path.join(__dirname, '../../components/**/*.scss'),
       },
       open: vfOpenBrowser,
       browser: 'default',
@@ -170,7 +175,7 @@ module.exports = {
         server.stop();
         fractal.unwatch(); // exit fractal
       });
-      
+
     }
   }
 }
