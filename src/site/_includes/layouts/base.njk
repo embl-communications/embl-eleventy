@@ -53,21 +53,16 @@
     <!-- analytics -->
     <meta name="vf:page-type" content="{{ meta.pagetype }}"> {# for analytics tracking #}
   </head>
-  <body class="{{ bodyClass }}">
+  <body class="{{ bodyClass }} vf-stack vf-body">
     <!-- embl global header -->
     <link rel="import" href="https://www.embl.org/api/v1/pattern.html?filter-content-type=article&filter-id=574&pattern=node-body&source=contenthub" data-target="self" data-embl-js-content-hub-loader>
 
-    <div class="vf-body">
+    <!-- embl global banner -->
+    <link rel="import" href="https://www.embl.org/api/v1/pattern.html?filter-content-type=article&filter-id=580&pattern=node-body&source=contenthub" data-target="self" data-embl-js-content-hub-loader>
 
-      <div class="vf-grid vf-u-margin__top--md">
-        <!-- embl global banner -->
-        <link rel="import" href="https://www.embl.org/api/v1/pattern.html?filter-content-type=article&filter-id=580&pattern=node-body&source=contenthub" data-target="self" data-embl-js-content-hub-loader>
-      </div>
-
-      <div class="vf-grid">
-        <div>
-          {{ content | safe }}
-        </div>
+    <div class="vf-grid">
+      <div>
+        {{ content | safe }}
       </div>
     </div>
 
