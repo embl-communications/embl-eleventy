@@ -1428,10 +1428,10 @@
   resolved "https://registry.yarnpkg.com/@visual-framework/vf-inlay/-/vf-inlay-2.0.1.tgz#036ffdbe716c27b504daadf4f3a2d01b9be8ff33"
   integrity sha512-dIxfgsgaHztanRmz46hKqEf5T0Ewja/IZsaZlPwIEKjJ35RKqVGJU0aWSWbkcrvF1u9N3eg5evNZ4jOWMGSxug==
 
-"@visual-framework/vf-intro@1.4.6":
-  version "1.4.6"
-  resolved "https://registry.yarnpkg.com/@visual-framework/vf-intro/-/vf-intro-1.4.6.tgz#7533d9894533cb3e3cb2209368d7eb0b5fa99baf"
-  integrity sha512-1/Ez9RwA07NDzk03gKCqVwPUtNt0tVctKIFnvPLC+RoefuK608YrKBwHasNS5zRF/XVR8uAoAvh/Xi4DO+y4Ng==
+"@visual-framework/vf-intro@1.4.7":
+  version "1.4.7"
+  resolved "https://registry.yarnpkg.com/@visual-framework/vf-intro/-/vf-intro-1.4.7.tgz#0ae1e781efcec0c78820c461f24c28c7bf805035"
+  integrity sha512-leLstMuUdGtCb6SbuqULhDs6fIJdlqLkQu1+g/YegugvjmuSDR7dCaGBPwB8cV6Iak1eaxL6688FlYBz35RC7g==
 
 "@visual-framework/vf-lede@1.0.1":
   version "1.0.1"
