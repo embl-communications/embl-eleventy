@@ -17,6 +17,7 @@
 <!-- embl data protection banner -->
 <link rel="import" href="https://www.embl.org/api/v1/pattern.html?filter-content-type=article&filter-id=581&pattern=node-body&source=contenthub" data-target="self" data-embl-js-content-hub-loader>
 
-
 <!-- This page was generated on {{ site.buildTime | dateDisplay('LLL d, yyyy - HH:mm') }} -->
+<!-- IE11 polyfill JS -->
+{% render '@vf-polyfill-js' %}
 <script src="{{ '/scripts/scripts.js' | url }}"></script>
