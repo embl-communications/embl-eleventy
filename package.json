@@ -53,7 +53,7 @@
     "@visual-framework/vf-flag": "1.0.0-alpha.2",
     "@visual-framework/vf-font-plex-mono": "1.1.1",
     "@visual-framework/vf-font-plex-sans": "1.1.1",
-    "@visual-framework/vf-footer": "1.1.1",
+    "@visual-framework/vf-footer": "1.2.0",
     "@visual-framework/vf-form__core": "1.1.2",
     "@visual-framework/vf-global-header": "3.1.2",
     "@visual-framework/vf-grid": "1.4.1",
