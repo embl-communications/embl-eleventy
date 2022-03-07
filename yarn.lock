@@ -1179,10 +1179,10 @@
   resolved "https://registry.yarnpkg.com/@visual-framework/embl-conditional-edit/-/embl-conditional-edit-1.0.3.tgz#06349e673b02b259b28212f829847ad225b8fa96"
   integrity sha512-HzsV6cLnPYPfGpyey93/+2nVVq6j/Wa2EiZ1AHOkt5tUohazBpBQXfDufCo9mCH2smWwhLe/T595ohQep8Vt/A==
 
-"@visual-framework/embl-content-hub-loader@1.1.0":
-  version "1.1.0"
-  resolved "https://registry.yarnpkg.com/@visual-framework/embl-content-hub-loader/-/embl-content-hub-loader-1.1.0.tgz#276170b53db14267b3f4eba92c9b69332dd64198"
-  integrity sha512-er3xIM8PK0YwqJtrZFIToTjAKfa+JuSHuJ7ndvDanYfp/DdrqcYxZtieOTyT18s7FAWGr5uFm/VBVDC2H7x1Dg==
+"@visual-framework/embl-content-hub-loader@1.2.0":
+  version "1.2.0"
+  resolved "https://registry.yarnpkg.com/@visual-framework/embl-content-hub-loader/-/embl-content-hub-loader-1.2.0.tgz#2c2eb539cc35c67809cf4872cbbfa6fc67f1bff4"
+  integrity sha512-NYk9P0Q2gUNUKJO5DhNCb/hA3OON4UljLmNK0OB4pKPx67DGRUW9arTwvFCcserQvnocbxZcmUFz0wQWUoGWRQ==
 
 "@visual-framework/embl-favicon@1.0.2":
   version "1.0.2"
@@ -1249,7 +1249,7 @@
   resolved "https://registry.yarnpkg.com/@visual-framework/vf-card/-/vf-card-2.6.0.tgz#36adcf76172ebcdbfc49d8e2894db2f2facab344"
   integrity sha512-H2xeKysTqZh52xT5pPXTN+QQJYpvYC1rzcbkK+9yERg8npT+qWlcePSf1gpa0nZOWz7Mqr10PUJoRDR+cnebyw==
 
-"@visual-framework/vf-cluster@^1.0.2":
+"@visual-framework/vf-cluster@1.0.2":
   version "1.0.2"
   resolved "https://registry.yarnpkg.com/@visual-framework/vf-cluster/-/vf-cluster-1.0.2.tgz#089c26cab4472a105070515a9da80f85a281d0e4"
   integrity sha512-J0JJUyevWObXV6/hoQrOonPEJ3143P7jdwdYHAk3+IIdaoy8O107ZwWf0Btn89Vi+iEy+FLbTTygNn9tZGpEOA==
@@ -1626,7 +1626,7 @@
   resolved "https://registry.yarnpkg.com/@visual-framework/vf-section-header/-/vf-section-header-1.5.1.tgz#9708d9899d60e144239f1a27a15496c77ff7f494"
   integrity sha512-9NSWP5jLbtRDOKXFbjoN5ZlC7pv6723oSCpFU+IMi74JARrdJNaiqaGHimXWK3yahAa3zCMiTBcJIPGOIFfaOg==
 
-"@visual-framework/vf-stack@^2.1.1":
+"@visual-framework/vf-stack@2.1.1":
   version "2.1.1"
   resolved "https://registry.yarnpkg.com/@visual-framework/vf-stack/-/vf-stack-2.1.1.tgz#aed13dfc015b64675f32749b950a111f03c3eccf"
   integrity sha512-KueOLVZd3occ3Hj+dCWYSq/T5aV4ZwtV4ytRmB2UqzuCxAWhO29amHoTcZhpDcMaVWBObEbMT4tbNIzCpniNfA==
