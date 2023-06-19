@@ -1199,10 +1199,10 @@
   resolved "https://registry.yarnpkg.com/@visual-framework/embl-logo/-/embl-logo-1.2.0.tgz#9d2f4385996844119478d63540dd7a2b53450a3f"
   integrity sha512-hyb83m0OxTsZgLsotNQcF2fXPTV6FLwBWNufaAFByPfqBH6XKG73cC6v70IttTDbMIakAZu1jHZ/wwCsIr/u0A==
 
-"@visual-framework/embl-notifications@1.1.0":
-  version "1.1.0"
-  resolved "https://registry.yarnpkg.com/@visual-framework/embl-notifications/-/embl-notifications-1.1.0.tgz#274e4b986eb1735ef80e47ce7d3630c5f305a01e"
-  integrity sha512-5OABD7mx3Q+VWWzw9bb1nx7oThmc17R6E4Oe6YHi60cw0QDvQSywJZjdIk+rqGFZ9BMiP8aIzagwIHG/1KN+4A==
+"@visual-framework/embl-notifications@1.2.2":
+  version "1.2.2"
+  resolved "https://registry.yarnpkg.com/@visual-framework/embl-notifications/-/embl-notifications-1.2.2.tgz#0b0140b05a85a93802afa4285a0d8b20fb54d61e"
+  integrity sha512-rJ2Y8myEn08LUVI7+mUSQ7FFz9UkDdxwXVfjwfpPlGK3/saW5+1tGD+l80qhUs1MWVixUBwopoLexIodaQPVKw==
 
 "@visual-framework/vf-badge@^2.0.0":
   version "2.0.1"
@@ -1249,7 +1249,7 @@
   resolved "https://registry.yarnpkg.com/@visual-framework/vf-card/-/vf-card-2.6.0.tgz#36adcf76172ebcdbfc49d8e2894db2f2facab344"
   integrity sha512-H2xeKysTqZh52xT5pPXTN+QQJYpvYC1rzcbkK+9yERg8npT+qWlcePSf1gpa0nZOWz7Mqr10PUJoRDR+cnebyw==
 
-"@visual-framework/vf-cluster@^1.0.2":
+"@visual-framework/vf-cluster@1.0.2":
   version "1.0.2"
   resolved "https://registry.yarnpkg.com/@visual-framework/vf-cluster/-/vf-cluster-1.0.2.tgz#089c26cab4472a105070515a9da80f85a281d0e4"
   integrity sha512-J0JJUyevWObXV6/hoQrOonPEJ3143P7jdwdYHAk3+IIdaoy8O107ZwWf0Btn89Vi+iEy+FLbTTygNn9tZGpEOA==
@@ -1626,7 +1626,7 @@
   resolved "https://registry.yarnpkg.com/@visual-framework/vf-section-header/-/vf-section-header-1.5.1.tgz#9708d9899d60e144239f1a27a15496c77ff7f494"
   integrity sha512-9NSWP5jLbtRDOKXFbjoN5ZlC7pv6723oSCpFU+IMi74JARrdJNaiqaGHimXWK3yahAa3zCMiTBcJIPGOIFfaOg==
 
-"@visual-framework/vf-stack@^2.1.1":
+"@visual-framework/vf-stack@2.1.1":
   version "2.1.1"
   resolved "https://registry.yarnpkg.com/@visual-framework/vf-stack/-/vf-stack-2.1.1.tgz#aed13dfc015b64675f32749b950a111f03c3eccf"
   integrity sha512-KueOLVZd3occ3Hj+dCWYSq/T5aV4ZwtV4ytRmB2UqzuCxAWhO29amHoTcZhpDcMaVWBObEbMT4tbNIzCpniNfA==
